@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="400" fill="#F5F5F5"/>
+  <g>
+    <!-- Laptop -->
+    <rect x="150" y="120" width="220" height="120" rx="16" fill="#E0E0E0" stroke="#333" stroke-width="3"/>
+    <rect x="170" y="140" width="180" height="80" rx="8" fill="#FFF" stroke="#333" stroke-width="2"/>
+    <text x="180" y="180" font-size="22" font-family="monospace" fill="#333">{ ... }</text>
+    <!-- Developer -->
+    <ellipse cx="260" cy="110" rx="32" ry="32" fill="#FFD700"/>
+    <rect x="228" y="142" width="64" height="40" rx="16" fill="#90CAF9"/>
+    <!-- Laravel logo -->
+    <g>
+      <rect x="420" y="160" width="60" height="60" rx="12" fill="#FFF" stroke="#E53935" stroke-width="3"/>
+      <text x="430" y="200" font-size="28" font-family="Arial" fill="#E53935">L</text>
+    </g>
+    <!-- Next.js logo -->
+    <g>
+      <rect x="500" y="160" width="60" height="60" rx="12" fill="#FFF" stroke="#111" stroke-width="3"/>
+      <text x="510" y="200" font-size="28" font-family="Arial" fill="#111">N</text>
+    </g>
+    <!-- Backend diagram -->
+    <rect x="600" y="140" width="180" height="80" rx="12" fill="#FFF3E0" stroke="#333" stroke-width="2"/>
+    <text x="610" y="170" font-size="18" font-family="Arial" fill="#333">Backend API</text>
+    <rect x="800" y="160" width="60" height="40" rx="8" fill="#C8E6C9" stroke="#333" stroke-width="2"/>
+    <text x="810" y="185" font-size="16" font-family="Arial" fill="#333">DB</text>
+    <line x1="780" y1="180" x2="800" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#333" />
+      </marker>
+    </defs>
+    <!-- Website elements -->
+    <rect x="900" y="120" width="120" height="40" rx="8" fill="#FFF" stroke="#1976D2" stroke-width="2"/>
+    <text x="910" y="145" font-size="16" font-family="Arial" fill="#1976D2">Dashboard UMKM</text>
+    <rect x="900" y="180" width="120" height="40" rx="8" fill="#FFF" stroke="#388E3C" stroke-width="2"/>
+    <text x="910" y="205" font-size="16" font-family="Arial" fill="#388E3C">Blog Pribadi</text>
+    <rect x="900" y="240" width="120" height="40" rx="8" fill="#FFF" stroke="#FBC02D" stroke-width="2"/>
+    <text x="910" y="265" font-size="16" font-family="Arial" fill="#FBC02D">Company Profile</text>
+  </g>
+  <text x="60" y="370" font-size="32" font-family="Arial" fill="#333">Web Developer | Backend Specialist | Laravel & Next.js</text>
+</svg>

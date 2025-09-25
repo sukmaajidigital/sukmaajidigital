@@ -36,22 +36,3 @@
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sukmaajidigital&theme=redical)
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=sukmaajidigital&theme=radical&no-frame=true&column=7)
 
-## 🧠
-
-```mermaid
-flowchart TD
-  A[💡 Ide/Problem] --> B{🤔 Feasible?}
-  B -->|Ya| C[📋 Planning]
-  B -->|Tidak| D[🔄 Refine Idea]
-  D --> A
-  C --> E[🛠️ Development]
-  E --> F[🧪 Testing]
-  F --> G{✅ Works?}
-  G -->|Ya| H[🚀 Deploy]
-  G -->|Tidak| I[🐛 Debug & Fix]
-  I --> F
-  H --> J[📈 Monitor & Improve]
-  J --> K[📝 Documentation]
-  K --> L[🎯 Next Challenge]
-  L --> A
-```
